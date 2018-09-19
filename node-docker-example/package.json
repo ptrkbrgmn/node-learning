@@ -1,0 +1,16 @@
+{
+  "name": "node-docker-example",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Patrik Bergman",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}

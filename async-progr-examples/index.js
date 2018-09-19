@@ -1,0 +1,5 @@
+// require('./app/async-code-old-style')
+// require('./app/async-code-w-promise')
+// require('./app/pyramid-of-doom.1')
+// require('./app/promise-chain.js')
+require('./app/promise-chain-w-await.js')

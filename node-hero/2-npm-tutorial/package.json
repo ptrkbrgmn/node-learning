@@ -1,0 +1,19 @@
+{
+  "name": "2-npm-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test",
+    "your-custom-script": "echo npm"
+  },
+  "author": "Patrik Bergman",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
