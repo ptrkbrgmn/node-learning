@@ -17,4 +17,5 @@ COPY . .
 
 EXPOSE 8080
 
-CMD [ "npm", "start" ]
+ENTRYPOINT ["npm", "start"]
+CMD ["--", "--services", "elasticsearch:redis:cassandra:rabbitmq"]

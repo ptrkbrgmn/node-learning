@@ -1,0 +1,15 @@
+{
+  "name": "promise-all-ex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "standard && node index.js",
+    "test": "standard"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}

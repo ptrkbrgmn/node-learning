@@ -41,7 +41,7 @@ doSomething()
   .catch(failureCallback) //  is short for then(null, failureCallback)'
 */
 doSomething()
-  .then(result => doSomethingElse(result))
+  .then(result => doSomethingElse(result)) // Expressed with arrow functions instead:
   .then(newResult => doThirdThing(newResult))
   .then(finalResult => { console.log(`Got the final result ${finalResult}`) })
   .catch(failureCallback) //  is short for then(null, failureCallback)'
