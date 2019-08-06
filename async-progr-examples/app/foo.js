@@ -30,10 +30,17 @@ function asynchronuousFunctionReturningPromise (inData) {
 //
 // console.log('Console is printing this before asyncCall() has returned!')
 
-function blockingAsyncCall () {
-  asynchronuousFunctionReturningPromise('in-data')
-   .then(res => { return res })
-   .catch(err => { throw new Error(err.message) })
+// Version one
+// function blockingAsyncCall () {
+//   asynchronuousFunctionReturningPromise('in-data')
+//    .then(res => { return res })
+//    .catch(err => { throw new Error(err.message) })
+// }
+
+async function blockingAsyncCall () {
+  const result = await asynchronuousFunctionReturningPromise('in-data')
+  console.log(result)
+  return result
 }
 
 const result = blockingAsyncCall()

@@ -1,0 +1,17 @@
+{
+  "name": "currying",
+  "version": "1.0.0",
+  "description": "Learning javascript currying",
+  "main": "index.js",
+  "scripts": {
+    "start": "standard && node index.js",
+    "test": "standard"
+  },
+  "author": "Patrik Bergman",
+  "license": "UNLICENSED",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
